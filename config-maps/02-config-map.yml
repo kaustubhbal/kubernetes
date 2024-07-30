@@ -19,13 +19,13 @@ spec:
       image: sachet1994/httpd:v1
       env: 
         - name: NAME
-            valueFrom:
-              configMapKeyRef: 
-                name: cource-config
-                  key: NAME 
+          valueFrom:
+            configMapKeyRef: 
+              name: cource-config
+              key: NAME 
         - name: TIMING
-            valueFrom:
-               configMapKeyRef: 
-                 name: cource-config
-                   key: TIMINNG 
+          valueFrom:
+            configMapKeyRef: 
+              name: cource-config
+              key: TIMINNG 
 ...
