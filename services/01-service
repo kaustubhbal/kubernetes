@@ -27,8 +27,8 @@ metadata:
   name: rs01-svc
 spec:
   selector:
-    app: 
+    app: webservice-rs
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 9376
+      targetPort: 80
