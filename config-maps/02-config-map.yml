@@ -10,7 +10,7 @@ data:
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: simple-var
+  name: congif-maps-var
 spec: 
   containers: 
     - name: httpd
