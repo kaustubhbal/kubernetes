@@ -9,3 +9,5 @@ spec:
 
     - name: centos
       image: centos
+      command: ["sleep", "10000"]
+      
