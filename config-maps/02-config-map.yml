@@ -7,8 +7,6 @@ data:
   NAME: Kaustubh
   TIMING: 10AM
 ...
-
----
 apiVersion: v1
 kind: Pod
 metadata: 
